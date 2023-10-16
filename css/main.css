@@ -1,0 +1,65 @@
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font: italic small-caps bold 12px/30px Georgia, serif;
+}
+  .structural {
+    margin: 10px;
+    padding: 10px;
+}
+  h1 {
+    color: rgb(165, 100, 225);
+    font-size: 25px;
+}
+  h2 {
+    color: rgb(111, 26, 139);
+    font-size: 20px;
+}
+  main {
+    height: 70vh;
+}
+  img {
+    border: 100px solid rgb(235, 45, 197);
+    width: 90%;
+    height: 80%;
+}
+  figure {
+    background-color: rgb(191, 123, 255);
+    width: 45%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+  figure:nth-child(odd) {
+    float: right
+}
+  figure:nth-child(even) {
+    float: left
+}
+  section {
+    clear:both;
+}
+  figcaption {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(89, 42, 133);
+    padding: 5px;
+ }
+  a {
+    color: #009900;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #cc0000;
+  }
+  ul, ol {
+    list-style: square;
+    line-height: 1.5;
+  }
+  header, footer {
+    background-color: #c17ac6;
+    color: #fff;
+    padding: 10px;
+  }
+  
